@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  font: 12px Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+  color: #666;
+  background: #fff;
+}
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+input,
+textarea,
+blockquote,
+p {
+  padding: 0;
+  margin: 0;
+}
+i {
+  font-style: normal
+}
+li {
+  list-style-type: none;
+}
+ol,
+ul {
+  list-style: none;
+}
+img {
+  vertical-align: middle;
+  border: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 12px;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+}
+/*声明清除浮动的样式*/
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('../iconfonts/iconfont.eot');
+  src: url('../iconfonts/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('../iconfonts/iconfont.woff2') format('woff2'),
+      url('../iconfonts/iconfont.woff') format('woff'),
+      url('../iconfonts/iconfont.ttf') format('truetype'),
+      url('../iconfonts/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
